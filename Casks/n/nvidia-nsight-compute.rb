@@ -4,7 +4,7 @@ cask "nvidia-nsight-compute" do
 
   url "https://developer.nvidia.com/downloads/assets/tools/secure/nsight-compute/#{version.major_minor_patch.dots_to_underscores}/nsight-compute-mac-#{version}.dmg"
   name "NVIDIA Nsight Compute"
-  desc "An interactive profiler for CUDA® and NVIDIA OptiX™ that provides detailed performance metrics and API debugging"
+  desc "Interactive profiler for CUDA that provides performance metrics and API debugging"
   homepage "https://developer.nvidia.com/nsight-compute"
 
   livecheck do
